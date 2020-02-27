@@ -1,0 +1,150 @@
+<div class="_wrapper">
+    <div class="_service_content">
+        <div class="ui container">
+            <!-- <div class="ui breadcrumb">
+                <a class="section">Home</a>
+                <i class="right angle icon divider"></i>
+                <a class="section">Store</a>
+                <i class="right angle icon divider"></i>
+                <div class="active section">T-Shirt</div>
+              </div> -->
+            <div class="ui stackable grid">
+                <div class="row">
+                    <div class="eleven wide column _content">
+                        <div class="_page_title">
+                            <strong>{{content.title}}</strong>
+                        </div>
+                        <p>{{content.briefDescription}}</p>
+                        <div class="ui two column stackable row grid">
+                            <div class="five wide column">
+                                <img [src]="content.img" />
+                            </div>
+                            <div class="eleven wide column">
+                                <div class="_heading">
+                                    <strong>{{content.heading}}</strong>
+                                </div>
+                                <div class="_amount">
+                                    <p>Starts from <span>{{content.amount}}</span></p>
+                                </div>
+                                <div class="_points">
+                                    <div class="ui equal width stackable row grid">
+                                        <div class="column _sample_block">
+                                            <div class="ui relaxed list _item_list">
+                                                <div class="item _custom_item">
+                                                    100% Original Product
+                                                </div>
+                                                <div class="item _custom_item">
+                                                    Complete Money Back Guarantees
+                                                </div>
+                                                <div class="item _custom_item">
+                                                    FREE Amendments
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="column _sample_block">
+                                            <div class="column _sample_block">
+                                                <div class="ui relaxed list _item_list">
+                                                    <div class="item _custom_item">
+                                                        Privacy and Security
+                                                    </div>
+                                                    <div class="item _custom_item">
+                                                        24/7 Help and Assistance
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui row grid">
+                                        <!--order btn-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 class="title_middle"><strong>{{content.titleMedium}}</strong></h1>
+                        <ng-container *ngFor="let data of content.firstdescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <h2 class="title_middle"><strong>{{content.help}}</strong></h2>
+                        <ng-container *ngFor="let data of content.helpdescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <h2 class="title_middle"><strong>{{content.titleConnect}}</strong></h2>
+                        <ng-container *ngFor="let data of content.connectDescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <h2 class="title_middle"><strong>{{content.nextStep}}</strong></h2>
+                        <ng-container *ngFor="let data of content.nextDescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <h2 class="title_middle"><strong>{{content.writing}}</strong></h2>
+                        <ng-container *ngFor="let data of content.writingDescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <h2 class="title_middle"><strong>{{content.price}}</strong></h2>
+                        <ng-container *ngFor="let data of content.priceDescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <h2 class="title_middle"><strong>{{content.conclusion}}</strong></h2>
+                        <ng-container *ngFor="let data of content.conDescription">
+                            <p>{{data}}</p>
+                        </ng-container>
+                        <div class="ui eight wide fluid centered column grid title_middle">
+                            <button *ngIf="content.btnText" class="ui centered yellow huge button _custombtn">{{content.btnText}}!</button>
+                        </div>
+                    </div>
+                    <div class="five wide column">
+    
+                    </div>
+                </div>
+                <div class="equal width row _prefooter">
+                    <div class="column _prefooter_slider">
+                        <div class="widget widget_delivery">
+                            <div class="widget_title">
+                                <span>On-time delivery</span>
+                            </div>
+                            <div class="description_text">
+                                <p><strong>Timely delivery is among our core guarantees. We offer:</strong></p>
+                            </div>
+                            <div class="list_wrapper">
+                                <ul class="list">
+                                    <li>Urgent paper writing (3 hours+)</li>
+                                    <li>Draft delivery upon your request</li>
+                                    <li>Final paper delivery before your deadline</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column _prefooter_slider">
+                        <div class="widget widget_delivery">
+                            <div class="widget_title">
+                                <span>Plagiarism-Free</span>
+                            </div>
+                            <div class="description_text">
+                                <p><strong>All papers are written from scratch and according to your unique requirements.</strong></p>
+                                <p>You are entitled to request a free originality check or order an advanced Originality report option to track the similarity score.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column _prefooter_slider">
+                        <div class="widget widget_delivery">
+                            <div class="widget_title">
+                                <span>On-time delivery</span>
+                            </div>
+                            <div class="description_text">
+                                <p><strong>Timely delivery is among our core guarantees. We offer:</strong></p>
+                            </div>
+                            <div class="list_wrapper">
+                                <ul class="list">
+                                    <li>Urgent paper writing (3 hours+)</li>
+                                    <li>Draft delivery upon your request</li>
+                                    <li>Final paper delivery before your deadline</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

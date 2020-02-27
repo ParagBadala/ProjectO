@@ -1,0 +1,42 @@
+<div class="ui stackable fixed inverted borderless menu" style="background-color: #16151F">
+  <div class="ui container">
+    <a class="header item" (click)="navigate('home')">
+      <img class="logo" src="../../assets/logo.png" />
+             EaSeUP
+    </a>
+    <div class="ui simple dropdown item">
+      Services
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item" (click)="navigate('services','essay')">Essay Services</a>
+        <a class="item" (click)="navigate('services','disseration')">Dissertation Services</a>
+        <a class="item" (click)="navigate('services','assignment')">Assignment Services</a>
+        <a class="item" (click)="navigate('services','admission')">Admission Services</a>
+        <a class="item" (click)="navigate('services','courseWork')">Coursework Services</a>
+        <a class="item" (click)="navigate('services','cv')">CV Services</a>
+        <a class="item" (click)="navigate('services','copywriting')">Copywriting Services</a>
+        <a class="item" (click)="navigate('services','editing')">Editing Services</a>
+        <a class="item" (click)="navigate('services','proofreading')">Proofreading Services</a>
+      </div>
+    </div>
+    <a class="item" (click)="navigate('price')"> Prices </a>
+    <a class="item"> Samples </a>
+    <a class="item"> Our Writers </a>
+    <a class="item"> Reviews </a>
+    <div class="ui simple dropdown item">
+      More
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="edit icon"></i> Edit Profile</a>
+        <a class="item"><i class="globe icon"></i> Choose Language</a>
+        <a class="item"><i class="settings icon"></i> Account Settings</a>
+      </div>
+    </div>
+    <div class="right item">
+      <div class="_headerButton">
+          <!-- <a class="_orderButton">ORDER NOW</a> -->
+        <button class="large ui inverted yellow button">ORDER NOW</button>
+      </div>
+    </div>
+  </div>
+</div>

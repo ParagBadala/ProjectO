@@ -1,0 +1,90 @@
+._prices {
+    margin-top: 7em!important;
+}
+
+._calculate_price {
+    padding-bottom: 45px;
+}
+
+._page_title {
+    margin-bottom: 30px;
+}
+
+._page_title strong {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #383945;
+    text-transform: uppercase;
+}
+
+._page_calculator {
+    /* display: none; */
+    /* margin-bottom: 40px; */
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 0 9px rgba(217,222,237,0.39);
+    -moz-box-shadow: 0 0 9px rgba(217,222,237,0.39);
+    -webkit-box-shadow: 0 0 9px rgba(217,222,237,0.39);
+}
+
+._cal {
+    padding: 63px 57px 25px !important;
+}
+
+._label span {
+    margin-right: 30px;
+    margin-top: 13px;
+    padding-left: 0;
+    float: left;
+    width: 146px;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83838D;
+    text-align: right;
+}
+
+._currency {
+
+}
+
+._currency:hover {
+    background-color: rgba(168,225,44,0.43)
+}
+
+._page_info_content p {
+    line-height: 27px;
+    word-break: break-word;
+}
+
+._item_list {
+    padding-bottom: 5%!important;
+}
+
+._item_list div:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    /* top: 8px; */
+    height: 16px;
+    width: 16px;
+    background: url('../../assets/icon_choose_sm-48b1339a2776585837c424a0269ae2ab5bea85a9d055376a82bcb4f42c487ec8.svg') no-repeat center;
+}
+
+._custom_item {
+    padding-left: 2% !important;
+}
+
+._customTable {
+    font-size: 14px;
+    font-weight: 300;
+    color: #1E203C;
+}
+
+._day_price {
+    font-size: 13px;
+    font-weight: 500;
+    color: #87BE10;
+}
