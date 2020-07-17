@@ -1,4 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { CommonService } from '../common.service';
 
 declare var $:any;
 
@@ -9,10 +10,14 @@ declare var $:any;
 })
 export class MainComponent implements OnInit, AfterViewInit {
 
-  constructor() { }
+  public showCalculator = false;
+
+  constructor(private commonService: CommonService) { }
 
   ngOnInit() {
-    
+    this.commonService.getToggleCal().subscribe((data) => {
+      this.showCalculator = !this.showCalculator
+    })
   }
 
   ngAfterViewInit() {
@@ -25,6 +30,11 @@ export class MainComponent implements OnInit, AfterViewInit {
     .sticky({
       context: '#example1'
     });
+  }
+
+  toggleCal() {
+    console.log('toggle called')
+    this.showCalculator = !this.showCalculator
   }
 
 }
