@@ -1,0 +1,50 @@
+._wrapper {
+    margin-top: 7em;
+    margin-bottom: 7em;
+}
+
+._page_title {
+    margin-bottom: 30px;
+}
+._page_title strong {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #383945;
+    text-transform: uppercase;
+}
+
+._content p {
+    line-height: 27px;
+    margin-bottom: 30px;
+    word-break: break-word;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #383945;
+}
+
+._rating {
+    float: right;
+    clear: both
+}
+
+._reviewer {
+    padding-bottom: 1.1em;
+}
+
+._topic p {
+    font-size: 13px;
+}
+
+._text-transform {
+    text-transform: uppercase;
+}
+
+._cardDes {
+    box-shadow: none !important;
+}
+

@@ -20,15 +20,17 @@
       </div>
     </div>
     <a class="item" (click)="navigate('price')"> Prices </a>
-    <a class="item"> Samples </a>
-    <a class="item"> Our Writers </a>
-    <a class="item"> Reviews </a>
+    <!-- <a class="item"> Samples </a> -->
+    <!-- <a class="item"> Our Writers </a> -->
+    <a class="item" (click)="navigate('contact')"> Contact</a>
+    <a class="item" (click)="navigate('review')"> Reviews </a>
     <div class="ui simple dropdown item">
       More
       <i class="dropdown icon"></i>
       <div class="menu">
         <a class="item"><i class="edit icon"></i> Edit Profile</a>
-        <a class="item"><i class="globe icon"></i> Choose Language</a>
+        <a class="item"><i class="globe icon"></i> FAQ</a>
+        <!-- <a class="item" (click)="navigate('contact')"><i class="globe icon"></i> Contact</a> -->
         <a class="item"><i class="settings icon"></i> Account Settings</a>
       </div>
     </div>
