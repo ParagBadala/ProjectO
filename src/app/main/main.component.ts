@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnChanges, AfterViewChecked } from '@angular/core';
 import { CommonService } from '../common.service';
 
 declare var $:any;
@@ -8,7 +8,7 @@ declare var $:any;
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']
 })
-export class MainComponent implements OnInit, AfterViewInit {
+export class MainComponent implements OnInit, AfterViewInit, AfterViewChecked {
 
   public showCalculator = false;
 
@@ -21,7 +21,8 @@ export class MainComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    $('.ui.dropdown').dropdown();
+    console.log('ngAfterViewInit')
+    $('._cal .ui.dropdown').dropdown();
     $(".rating").rating({
       maxRating: 5
     });
@@ -31,6 +32,12 @@ export class MainComponent implements OnInit, AfterViewInit {
       context: '#example1'
     });
   }
+
+  ngAfterViewChecked(): void {
+    console.log('ngAfterViewChecked')
+    $('._cal .ui.dropdown').dropdown();
+  }
+
 
   toggleCal() {
     console.log('toggle called')

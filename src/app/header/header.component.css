@@ -1,0 +1,14 @@
+._mobilescreen {
+    display:none !important;
+}
+
+._destopscreen {
+    display: inherit !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    ._destopscreen {display: none!important;}
+    ._mobilescreen {display: inherit!important;}
+    
+}

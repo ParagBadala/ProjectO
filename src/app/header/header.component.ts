@@ -1,6 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonService } from '../common.service';
+
+declare var $:any;
 
 @Component({
   selector: 'app-header',
@@ -8,6 +10,8 @@ import { CommonService } from '../common.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  @Output() toggleSidebarEmitter = new EventEmitter()
 
   constructor(private router: Router, private commonService: CommonService) { }
 
@@ -24,6 +28,11 @@ export class HeaderComponent implements OnInit {
 
   toggleCal() {
     this.commonService.setToggleCal(true);
+  }
+
+  toggleSidebar() {
+    console.log('event called')
+    this.toggleSidebarEmitter.emit();
   }
 
 }
