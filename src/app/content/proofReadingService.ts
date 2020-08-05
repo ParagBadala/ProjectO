@@ -2,7 +2,7 @@ export const proofreadingServiceContent = [
     {
         title: "Proofreading Services",
         briefDescription: "While every word processing program comes with a spelling and grammar checker they are hardly the match for all of the myriad, intricate mistakes that human beings are capable of creating. If you are submitting essays, coursework or even your dissertation without having them looked over by a professional proofreader then you are wasting your chances.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Proofreading Services",
         amount: "£3.83",
         options: [

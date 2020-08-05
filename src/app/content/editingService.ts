@@ -2,7 +2,7 @@ export const editingServiceContent = [
     {
         title: "Editing Services",
         briefDescription: "If you have put all the work into creating an essay then you have wasted that effort if you decide not to have it edited. The difference between an essay that has been fact checked and edited and one that has not can be the difference between a passing grade and failure.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Editing Services",
         amount: "£4.60",
         options: [

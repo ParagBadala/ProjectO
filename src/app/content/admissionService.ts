@@ -2,7 +2,7 @@ export const AdmissionServiceContent = [
     {
         title: "Admission Service",
         briefDescription: "Many students do not place much importance on the college admissions essay. They believe that their other credentials are far more important – their grades, their college admissions test scores, involvement in activities, both at school and in the community, and leadership positions. You have done everything right, so of course, you will be admitted.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Admission Service",
         amount: "£11.27",
         options: [

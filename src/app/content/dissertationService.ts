@@ -2,7 +2,7 @@ export const DissertationServiceContent = [
     {
         title: "Dissertation Services",
         briefDescription: "For UK students, the term “dissertation” refers to capstone research projects, but they can be required at the end of each degree program – undergraduate, Masters and PhD. In some cases the PhD “dissertation” is also called a “thesis,” but, at all three levels, the goal is the same. The student must engage in an independent research study and write up the findings of that study in a scholarly manner.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Dissertation Services",
         amount: "£8.47",
         options: [

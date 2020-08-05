@@ -2,7 +2,7 @@ export const courseServiceContent = [
     {
         title: "Coursework Service",
         briefDescription: "Any student from the age of 12 on up is familiar with homework assignments – those rather short assignments that are assigned one day and due the next. And as those students get older, they become familiarised with long-range assignments – projects, research essays, lab reports, presentations, term papers, and, of course, the never-ending quizzes and tests to study for. Many students get to the point where they feel that all they do is attend classes and complete assignments.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Coursework Service",
         amount: "£9.77",
         options: [

@@ -2,7 +2,7 @@ export const CvServiceContent = [
     {
         title: "CV Service",
         briefDescription: "Creating the right impression with your CV is a skill, but it is not a skill that you are ever taught. If you are very lucky you were probably shown a template of a “good CV” at some point in secondary school. If not you probably relied pretty heavily on the suggestions of Microsoft Word and your CV will currently look exactly the same as everyone else’s. If it doesn’t stand out from the rest then it is just going to be another sheet of paper on the pile.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the CV Service",
         amount: "£69.03",
         options: [

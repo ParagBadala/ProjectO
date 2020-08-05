@@ -1,8 +1,8 @@
 <div class="_wrapper">
   <div class="ui stackable grid">
     <div class="computer tablet only row _main" style="margin-bottom: 0; padding-bottom: 0;" *ngIf="!showCalculator">
-      <div class="sixteen wide column _coverImg" (click)="toggleCal()">
-        <!-- <img src="../../assets/cover.jpg"> -->
+      <div class="sixteen wide column _coverImg">
+        <!-- <img src="./assets/cover.jpg"> -->
 
         <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
           <!-- Overlay -->
@@ -54,8 +54,8 @@
       </div>
     </div>
     <div class="computer tablet only row _main" style="margin-bottom: 0; padding-bottom: 0;" *ngIf="showCalculator">
-      <div class="ten wide column _coverImg" (click)="toggleCal()">
-        <img src="../../assets/cover.jpg">
+      <div class="ten wide column _coverImg">
+        <img src="./assets/cover.jpg">
       </div>
       <div class="six wide column">
         <div class="ui padded container _cal">
@@ -204,8 +204,8 @@
       </div>
     </div>
     <div class="mobile only row _main" style="margin-bottom: 0; padding-bottom: 0;">
-      <div class="ten wide column _coverImg" (click)="toggleCal()">
-        <img src="../../assets/cover.jpg">
+      <div class="ten wide column _coverImg">
+        <img src="./assets/cover.jpg">
       </div>
       <div class="six wide column">
         <div class="ui padded container _cal">
@@ -345,7 +345,11 @@
             </div>
           </div>
           <div class="ui row grid _fieldItem _orderbtnfield">
-            <div class="eight wide column">
+            <div class="eight wide computer tablet only column">
+              <button class="ui yellow huge fluid button"><span class="_orderbtn"><strong>ORDER
+                    NOW</strong></span></button>
+            </div>
+            <div class="fifteen wide mobile only column">
               <button class="ui yellow huge fluid button"><span class="_orderbtn"><strong>ORDER
                     NOW</strong></span></button>
             </div>
@@ -404,7 +408,7 @@
           </div>
           <div class="ui row grid">
             <div class="eight wide column _we_help_text">
-              <img src="../../assets/help_student2.jpg" />
+              <img src="./assets/help_student2.jpg" />
             </div>
             <div class="eight wide column _we_help_text">
               <p>You are a student and you have no time. Indeed, time is a limited and valuable resource and there are
@@ -487,7 +491,7 @@
               <div class="best_essay_content">
                 <span>LOOKING FOR THE BEST ESSAY HELP IN UK?
                   <img class="_flag"
-                    src="../../assets/flag-593cb6f825c927aa23a41f733c078b9043db3c2961eedb448021fbeeeedf8757.svg" />
+                    src="./assets/flag-593cb6f825c927aa23a41f733c078b9043db3c2961eedb448021fbeeeedf8757.svg" />
                 </span>
               </div>
             </div>
@@ -510,7 +514,7 @@
                 </span>
               </div>
               <div class="_features_img">
-                <img src="../../assets/features-d1dd3caf1fa67dc881c9cc599ab49a19ac1e208a5051a2725e6b7f6e09226888.png" />
+                <img src="./assets/features-d1dd3caf1fa67dc881c9cc599ab49a19ac1e208a5051a2725e6b7f6e09226888.png" />
               </div>
               <div class="_features_content">
                 <ul class="features_block_list">
@@ -548,7 +552,7 @@
                     <div class="five wide computer only column">
                       <div class="_sample_img">
                         <img
-                          src="../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg" />
+                          src="./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg" />
                       </div>
                     </div>
                     <div class="one wide computer only column"></div>
@@ -557,7 +561,7 @@
                         <div class="two column row">
                           <div class="four wide mobile and tablet only column">
                             <img
-                              src="../../assets/document-414-38ac4f251bb01d59c2e8f3e7623bf443966b0b8404f5e227938d96918b14a0d2.svg" />
+                              src="./assets/document-414-38ac4f251bb01d59c2e8f3e7623bf443966b0b8404f5e227938d96918b14a0d2.svg" />
                           </div>
                           <div class="sixteen wide computer twelve wide mobile twelve wide tablet column">
                             <div class="_sample_block_content_header">
@@ -608,7 +612,7 @@
                     <div class="five wide computer only column">
                       <div class="_sample_img">
                         <img
-                          src="../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg" />
+                          src="./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg" />
                       </div>
                     </div>
                     <div class="one wide computer only column"></div>
@@ -617,7 +621,7 @@
                         <div class="two column row">
                           <div class="four wide mobile and tablet only column">
                             <img
-                              src="../../assets/document-414-38ac4f251bb01d59c2e8f3e7623bf443966b0b8404f5e227938d96918b14a0d2.svg" />
+                              src="./assets/document-414-38ac4f251bb01d59c2e8f3e7623bf443966b0b8404f5e227938d96918b14a0d2.svg" />
                           </div>
                           <div class="sixteen wide computer twelve wide mobile twelve wide tablet column">
                             <div class="_sample_block_content_header">
@@ -676,7 +680,7 @@
               <div class="ui row grid">
                 <div class="five wide column">
                   <img
-                    src="../../assets/img_customers-38254123a0c427c62626e60181bcbdfb761915ed0a4e692596070ed7b8408bc8.svg" />
+                    src="./assets/img_customers-38254123a0c427c62626e60181bcbdfb761915ed0a4e692596070ed7b8408bc8.svg" />
                 </div>
                 <div class="eleven wide column">
                   <p>Hello</p>
@@ -708,7 +712,7 @@
             and personal life.</p>
           <div class="ui row grid">
             <div class="two wide computer three wide mobile two wide tablet column">
-              <img src="../../assets/folder_img-450fad152152102d018c757f9f90fb95ed5302932e7bcd27218d3df947d5e1e4.svg" />
+              <img src="./assets/folder_img-450fad152152102d018c757f9f90fb95ed5302932e7bcd27218d3df947d5e1e4.svg" />
             </div>
             <div class="fourteen wide computer thirteen wide mobile fourteen wide tablet column">
               <h2 class="title_img img_folder">The Types of Papers and<br>
@@ -835,7 +839,7 @@
             templates and we regularly update our library to ensure a unique text every time.</p>
           <div class="ui row grid">
             <div class="two wide computer three wide mobile two wide tablet column">
-              <img src="../../assets/writer_img-5d7f84a5acdbf919e1fc599b9e0782d06c840e6278d3ecd4091bf7b9e25ee271.svg" />
+              <img src="./assets/writer_img-5d7f84a5acdbf919e1fc599b9e0782d06c840e6278d3ecd4091bf7b9e25ee271.svg" />
             </div>
             <div class="fourteen wide computer thirteen wide mobile thirteen wide tablet column">
               <h2 class="title_img img_folder">Meet Our Writers</h2>
@@ -855,7 +859,7 @@
           <div class="ui row grid">
             <div class="two wide computer three wide mobile two wide tablet column">
               <img
-                src="../../assets/support_img-0883987a39de18e98b3e6eba4bc4ef08bb85d28d7fccd68d4c9f7083b2524603.svg" />
+                src="./assets/support_img-0883987a39de18e98b3e6eba4bc4ef08bb85d28d7fccd68d4c9f7083b2524603.svg" />
             </div>
             <div class="fourteen wide computer thirteen wide mobile fourteen wide tablet column">
               <h2 class="title_img img_folder">Continuous Support – We <br>Are
@@ -886,7 +890,7 @@
                   </div>
                 </div>
               </div>
-              <div class="ui row grid">
+              <div class="ui row grid _customWidget">
                 <div class="column">
                   <div class="_widget_price">
                     <div class="ui two column row grid">
@@ -922,13 +926,13 @@
                         <div class="seven wide column">
                           <div class="_charge_badges">
                             <img
-                              src="../../assets/badge_charges2-e063e12f64521284ccf7ea7fe0c8d784befeb750d56a477281bdc2d39a737aa1.svg" />
+                              src="./assets/badge_charges2-e063e12f64521284ccf7ea7fe0c8d784befeb750d56a477281bdc2d39a737aa1.svg" />
                           </div>
                         </div>
                         <div class="nine wide column">
                           <div class="_charge_money">
                             <img
-                              src="../../assets/badge_guarantee2-046a57f24763ce42c41b3015e1fc8a9fb837bdbebed5082ef89157c1137f7883.svg" />
+                              src="./assets/badge_guarantee2-046a57f24763ce42c41b3015e1fc8a9fb837bdbebed5082ef89157c1137f7883.svg" />
                           </div>
                         </div>
                       </div>
@@ -943,23 +947,23 @@
                     </div> -->
               <div class="ui equal width relaxed justified row grid">
                 <div class="column _visa">
-                  <img src="../../assets/visa-5e1db0ef033bc34d35a62fe6a04832ac4c71415378737d09e2df989464ceeea1.svg" />
+                  <img src="./assets/visa-5e1db0ef033bc34d35a62fe6a04832ac4c71415378737d09e2df989464ceeea1.svg" />
                 </div>
                 <div class="column _mastercard">
                   <img
-                    src="../../assets/mastercard-5ed368eb439bfe9a6552c8908eb93d49aa746bc9599e466b9fc1e378a2d19f5f.svg" />
+                    src="./assets/mastercard-5ed368eb439bfe9a6552c8908eb93d49aa746bc9599e466b9fc1e378a2d19f5f.svg" />
                 </div>
                 <div class="column _americanexpress">
                   <img
-                    src="../../assets//american_express-eededc67b658b737459f223dc0240bc85481ab0f9ad3a7f1b1f1cb47e5ef940e.svg" />
+                    src="./assets//american_express-eededc67b658b737459f223dc0240bc85481ab0f9ad3a7f1b1f1cb47e5ef940e.svg" />
                 </div>
                 <div class="column">
                   <img
-                    src="../../assets/discover-dark-6fdec172e303bfbd0450378618f244895e64efbc584bfb4503cb011ba922ac65.svg" />
+                    src="./assets/discover-dark-6fdec172e303bfbd0450378618f244895e64efbc584bfb4503cb011ba922ac65.svg" />
                 </div>
                 <div class="column _wiretransfer">
                   <img
-                    src="../../assets//wire-transfer-4c700f5ac5faa87347d8c0ce04ecab9011fea3a2f2d561e73c6a737d9b8cf5e9.svg" />
+                    src="./assets//wire-transfer-4c700f5ac5faa87347d8c0ce04ecab9011fea3a2f2d561e73c6a737d9b8cf5e9.svg" />
                 </div>
               </div>
             </div>

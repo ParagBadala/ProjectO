@@ -2,7 +2,7 @@ export const essayServiceContent = [
     {
         title: "Essay Service",
         briefDescription: "Students all over the UK are wising up to the fact that they can have their essays written for them. It's not hard to find a UK essay writing service online, but you shouldn't just go with the first one you come across. There's so many around that you can't quite trust to give your essay the care and attention it needs. We, however, can. We pride ourselves on being the best essay writing service UK, and here's why.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Essay Services",
         amount: "$7.34",
         options: [

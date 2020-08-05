@@ -2,7 +2,7 @@ export const copyWritingServiceContent = [
     {
         title: "Copywriting Service",
         briefDescription: "We offer a full variety of copywriting services. Our expert team of highly trained and experienced copywriters have thousands of projects under their belts, ranging from press releases, news articles, blog posts and product reviews.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Copywriting Service",
         amount: "£19.18",
         options: [

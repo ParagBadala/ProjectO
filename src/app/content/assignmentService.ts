@@ -2,7 +2,7 @@ export const AssignmentServiceContent = [
     {
         title: "Assignment Service",
         briefDescription: "Coursework assignments – the come fast and furiously in every class in which you are enrolled. And unfortunately, many tutors and professors think theirs is the only course you are taking this term and they pile these assignments on like crazy. It’s really easy to get overwhelmed with the sheer number of assignments you get and to throw up your hands and just quit. Don’t do this! UK Writings has your answer – cheap assignment writing services that will make sure all of those essays, papers, tough assignments and more get finished and turned in on time.",
-        img: "../../assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
+        img: "./assets/samples_doc-b47c8242c7628fbf81a699747abe17fed61711df2980a2f77a5d8df5efb03a86.jpg",
         heading: "Features of the Assignment Service",
         amount: "£7.34",
         options: [
