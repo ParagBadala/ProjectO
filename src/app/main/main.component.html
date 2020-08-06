@@ -1,5 +1,10 @@
 <div class="_wrapper">
   <div class="ui stackable grid">
+
+    <div class="_openCalBtn">
+      <h2 (click)="toggleCal()"> Enquire Now</h2>
+    </div>
+
     <div class="computer tablet only row _main" style="margin-bottom: 0; padding-bottom: 0;" *ngIf="!showCalculator">
       <div class="sixteen wide column _coverImg">
         <!-- <img src="./assets/cover.jpg"> -->
@@ -433,33 +438,38 @@
       <div class="ui container">
         <div class="ui equal width stackable grid">
           <div class="row">
-            <div class="five wide column">
+            <!-- <div class="five wide column">
               <div class="_components_title">
                 <span>WHAT OUR <strong class="_titleWord">CUSTOMERS SAY</strong></span>
                 <p>You will get the grade you deserve without having to worry about unrealistic deadlines and without
                   having to stress yourself out to the point where you feel like giving up.&nbsp;
                   <a class="_text_link" href="#" rel="nofollow">See reviews</a></p>
               </div>
-            </div>
+            </div> -->
             <div class="column">
-              <div class="_customers_testimonials_item">
-                <div class="_customers_testimonials_inform">
-                  <div class="_customers_testimonials_user">
-                    <span>Francis, Australia, Melbourne &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
-                    <div class="ui large star rating" data-rating="5"></div>
-                  </div>
-                  <div class="_customers_testimonials_order">
-                    <p>Essay, Law, 6 pages, 48 hours, HNC / HND</p>
+              <ngx-slick-carousel class="carousel" [config]="slideConfig">
+                <div ngxSlickItem *ngFor="let product of [0,1,2,3,4,5,6,7,8];" class="slide">
+                  <div class="_customers_testimonials_item">
+                    <div class="_customers_testimonials_inform">
+                      <div class="_customers_testimonials_user">
+                        <span>Francis, Australia, Melbourne &nbsp; &nbsp; &nbsp;</span>
+                        <div class="ui large star rating" data-rating="5"></div>
+                      </div>
+                      <div class="_customers_testimonials_order">
+                        <p>Essay, Law, 6 pages, 48 hours, HNC / HND</p>
+                      </div>
+                    </div>
+                    <div class="_customers_testimonials_text">
+                      <p>It's so cool that I've found your service! Got a wonderful essay from you.
+                        Now I'm thinking about ordering other writing assignments from you.
+                        So far the best service I've ever used.</p>
+                    </div>
                   </div>
                 </div>
-                <div class="_customers_testimonials_text">
-                  <p>It's so cool that I've found your service! Got a wonderful essay from you.
-                    Now I'm thinking about ordering other writing assignments from you.
-                    So far the best service I've ever used.</p>
-                </div>
-              </div>
+                </ngx-slick-carousel>
+              
             </div>
-            <div class="column">
+            <!-- <div class="column">
               <div class="_customers_testimonials_item">
                 <div class="_customers_testimonials_inform">
                   <div class="_customers_testimonials_user">
@@ -476,7 +486,7 @@
                     I'm happy with the result. Definitely will order other papers from them.</p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

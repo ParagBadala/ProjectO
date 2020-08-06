@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PricesComponent } from './prices/prices.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReviewComponent } from './review/review.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ReviewComponent } from './review/review.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
