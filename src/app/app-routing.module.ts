@@ -5,6 +5,9 @@ import { ServicesComponent } from './services/services.component';
 import { PricesComponent } from './prices/prices.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReviewComponent } from './review/review.component';
+import { FaqComponent } from './faq/faq.component';
+import { ExtrasComponent } from './extras/extras.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 const routes: Routes = [
@@ -32,6 +35,18 @@ const routes: Routes = [
   {
     path:'review', 
     component: ReviewComponent
+  },
+  {
+    path:'extra', 
+    component: ExtrasComponent
+  },
+  {
+    path:'faq', 
+    component: FaqComponent
+  },
+  {
+    path:'about-us', 
+    component: AboutUsComponent
   },
   {
     path:'**', 

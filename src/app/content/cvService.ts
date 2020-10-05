@@ -19,13 +19,11 @@ export const CvServiceContent = [
                 value:"24/7 Help and Assistance"
             }
         ],
-        titleMedium: "Professional CV Service in the UK",
-        firstdescription: ["Our team of expert writers have experience in the public and private sectors along with the knowledge and creativity required to make your CV stand out from all of the rest. They know how to present the very best interpretation of your life to date for the specific job that you are looking for.",
-                            "If you are just starting out in the working world and you are looking for an entry level position then we have the expertise to transform your academic experience, your hobbies and your volunteer work into a fully fledged CV that will rely on emphasising your skills and your strengths instead of the experience that you do not have to flaunt.",
-                            "If you are looking for an executive position but you are not sure how to translate your working life into the kind of thing that would impress a board of directors then do what all effective executives do, delegate the task to someone who has the correct skill-set and a proven track record. Our CV writers have helped place executives in some of the UK’s top companies.",
-                        "If you are looking to make a completely new career for yourself later in life, making the switch between career paths can leave you feeling bereft and leave your CV looking very light on relevant information. Our expert team can highlight the specific skills that you developed in your earlier employment that will still be relevant in your new position.",
-                        "Why should you use our CV writing service over others? We are results oriented and we guarantee that you will get an interview using the CV that we provide. We offer as many revisions as you require to get the end result that you want and we promise you direct contact with your writer throughout the process.",
-                        "Take the very first step towards a new successful career today."],
+        titleMedium: "CV service with us",
+        firstdescription: ["Meritmates have a pool of professionals who recruit a lot of students every year in reputed organizations throughout Europe. Imagine these industry professionals helping you create your CVs. All of them have a minimum of 5 years of experience and countless successful CVs under their belts. They will make your CV the best representation of your achievements.",
+                            "Our experts will also make a comprehensive page about your hobbies and skills so that the sector which you are about to join may find you more diverse and useful.",
+                            "Meritmates' writers will help you format your CV (curriculum vitae) as per the requirement of your job. They will make your document vivid, professional, and easy to read. Any format chronological, functional, or combined they'll do it for you.",
+                            "So we can proudly say that Meritmates has everything you need to represent you and we will do our best to push you one step closer to your dreams!"],
         help: "",
         helpdescription : [],
         titleConnect : "",
@@ -38,6 +36,8 @@ export const CvServiceContent = [
         priceDescription: [],
         conclusion: "",
         conDescription: [],
-        btnText: "Order essay Now"
+        btnText: "Order essay Now",
+        titleProcess: "",
+        processDescription: []
     }
 ]

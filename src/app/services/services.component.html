@@ -72,6 +72,11 @@
                         <ng-container *ngFor="let data of content.connectDescription">
                             <p>{{data}}</p>
                         </ng-container>
+                        <h2 class="title_middle"><strong>{{content.titleProcess}}</strong></h2>
+                        <ng-container *ngFor="let data of content.processDescription">
+                            <h3>{{data.title}}</h3>
+                            <p>{{data.description}}</p>
+                        </ng-container>
                         <h2 class="title_middle"><strong>{{content.nextStep}}</strong></h2>
                         <ng-container *ngFor="let data of content.nextDescription">
                             <p>{{data}}</p>

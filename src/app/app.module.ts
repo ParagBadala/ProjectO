@@ -11,6 +11,9 @@ import { PricesComponent } from './prices/prices.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReviewComponent } from './review/review.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { FaqComponent } from './faq/faq.component';
+import { ExtrasComponent } from './extras/extras.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     PricesComponent,
     ContactComponent,
     ReviewComponent,
+    FaqComponent,
+    ExtrasComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,

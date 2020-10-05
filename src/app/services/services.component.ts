@@ -39,7 +39,7 @@ export class ServicesComponent implements OnInit {
         this.content = copyWritingServiceContent[0]
       }else if(routeInfo.service == 'editing') {
         this.content = editingServiceContent[0]
-      }else if(routeInfo.service == 'proofreading') {
+      }else if(routeInfo.service == 'thesis') {
         this.content = proofreadingServiceContent[0]
       }
       this.onActivate();

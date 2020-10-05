@@ -8,7 +8,7 @@ export const review = [
             city: 'London',
             country: 'UK',
             topic: 'Editing',
-            reviewDes: 'The most talented writers work here. I got scammed by another writing company and in despair came across ukwritings.com. The customer support agent quickly reassured me that they could proofread my term paper and make necessary edits.'
+            reviewDes: 'I was searching for an essay writing website to write my essay on abstract arts. None of the websites provide what I was looking for except Meritmates. I\'m quite surprised by Meritmates\' final product. They saved my life'
         },
         {
             name: 'James',
@@ -16,7 +16,7 @@ export const review = [
             city: 'New York',
             country: 'USA',
             topic: 'Research Paper',
-            reviewDes: 'I placed an order here a while ago and it came on time, it was of decent quality and met my expectations the writer answered promptly and I liked working with the website in general.'
+            reviewDes: 'I reviewed a lot of essay writing sites, most of them lacked diversity when it comes to rare topics like different culture from the specific parts of our world. Meritmates have writers not only from the UK but from various parts of the world. So yeah I\'ll recommend Meritmates over other sites.'
         },
         {
             name: 'Wang',
@@ -24,7 +24,7 @@ export const review = [
             city: 'Doha',
             country: 'QATAR',
             topic: 'Research Paper',
-            reviewDes: 'I placed an order here a while ago and it came on time, it was of decent quality and met my expectations the writer answered promptly and I liked working with the website in general.'
+            reviewDes: 'My days of worries are far gone, I am a regular Meritmates customer and I can assure you in their behalf my grades are on par with the top students.'
         },
         {
             name: 'Juliane',
@@ -32,7 +32,7 @@ export const review = [
             city: 'cape town',
             country: 'south africa',
             topic: 'Rewriting',
-            reviewDes: 'A huge thanks to UK Writings for their amazing performance. I was a bit anxious about the volume of work and that the writer might not be able to complete it all on time, despite all the assurances. So I was thrilled to find my research paper ready for print this morning!'
+            reviewDes: 'I always use Meritmates, It is fast, provides great quality, super affordable, and one of the most diverse essays writing site on the internet.'
         },
         {
             name: 'Maik',
@@ -40,7 +40,7 @@ export const review = [
             city: 'Grangemouth',
             country: 'UK',
             topic: 'Article',
-            reviewDes: 'My group and I had made a collective order and every one of us was happy with what they got. Captivating introductions, witty examples and mighty call-to-action conclusions. I highly recommend ease writings'
+            reviewDes: 'I already tried most of the essay writing sites Meritmates stands apart. By far the best I\'ve come across.'
         },
         {
             name: 'Abai R',
@@ -48,7 +48,23 @@ export const review = [
             city: 'Masdar city',
             country: 'UAE',
             topic: 'Research Paper',
-            reviewDes: 'This writing service is the best on the market! Ordering from them I save so much time and effort I\'d waste on secondary courses I only need for the record'
+            reviewDes: 'Struggles of my life: Studying, Family and their responsibilities and last but one of the most painful, writing an essay. Meritmates is a handy site for people like us and it is cheap too.'
+        },
+        {
+            name: 'Abarar',
+            rating: 5,
+            city: 'California',
+            country: 'USA',
+            topic: 'Research Paper',
+            reviewDes: 'I didn\'t know such a cheap site exists for writing quality essays. You made my day Meritmates.'
+        },
+        {
+            name: 'Faiz',
+            rating: 5,
+            city: 'LA',
+            country: 'USA',
+            topic: 'Research Paper',
+            reviewDes: 'Living in the UK with such a tight budget and then comes the writing of an essay we never heard about. A cheap essay writing sites like Meritmates is a warm welcome'
         }
     ]
     }

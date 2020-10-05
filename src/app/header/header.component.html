@@ -12,12 +12,12 @@
             <a class="item" (click)="navigate('services','essay')">Essay Services</a>
             <a class="item" (click)="navigate('services','disseration')">Dissertation Services</a>
             <a class="item" (click)="navigate('services','assignment')">Assignment Services</a>
-            <a class="item" (click)="navigate('services','admission')">Admission Services</a>
+            <a class="item" *ngIf="false" (click)="navigate('services','admission')">Admission Services</a>
             <a class="item" (click)="navigate('services','courseWork')">Coursework Services</a>
             <a class="item" (click)="navigate('services','cv')">CV Services</a>
-            <a class="item" (click)="navigate('services','copywriting')">Copywriting Services</a>
-            <a class="item" (click)="navigate('services','editing')">Editing Services</a>
-            <a class="item" (click)="navigate('services','proofreading')">Proofreading Services</a>
+            <a class="item" *ngIf="false" (click)="navigate('services','copywriting')">Copywriting Services</a>
+            <a class="item" (click)="navigate('services','editing')">Editing & Proofreading Services</a>
+            <a class="item" (click)="navigate('services','thesis')">Thesis Services</a>
           </div>
         </div>
         <a class="item" (click)="navigate('price')"> Prices </a>
@@ -27,9 +27,10 @@
           More
           <i class="dropdown icon"></i>
           <div class="menu">
-            <a class="item"><i class="edit icon"></i> Edit Profile</a>
-            <a class="item"><i class="globe icon"></i> FAQ</a>
-            <a class="item"><i class="settings icon"></i> Account Settings</a>
+            <a class="item" (click)="navigate('extra')"><i class="edit icon"></i> Extras</a>
+            <a class="item" (click)="navigate('faq')"><i class="globe icon"></i> FAQ</a>
+            <a class="item" (click)="navigate('about-us')"><i class="address book icon"></i> About us</a>
+            <!-- <a class="item"><i class="settings icon"></i> Account Settings</a> -->
           </div>
         </div>
         <div class="right item">

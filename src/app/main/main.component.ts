@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit, OnChanges, AfterViewChecked } from '@angular/core';
 import { CommonService } from '../common.service';
 import {Email} from '../../assets/js/smtp.js';
+import { TestimonialContent  } from '../content/testimonials'
 
 // declare var Email : any;
 
@@ -14,6 +15,7 @@ declare var $:any;
 export class MainComponent implements OnInit, AfterViewInit {
 
   public showCalculator = false;
+  public testimonies = TestimonialContent
 
   public slides = [342, 453, 846, 855, 234, 564, 744, 243];
 

@@ -37,6 +37,8 @@ export const copyWritingServiceContent = [
         priceDescription: [],
         conclusion: "",
         conDescription: [],
-        btnText: "Order essay Now"
+        btnText: "Order essay Now",
+        titleProcess: "",
+        processDescription: []
     }
 ]
