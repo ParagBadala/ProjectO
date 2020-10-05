@@ -1,6 +1,8 @@
-import { Component, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit, OnInit } from '@angular/core';
 import { CommonService } from './common.service';
 import { Router } from '@angular/router';
+import * as AOS from 'aos';
+
 
 declare var $: any ;
 
@@ -9,11 +11,19 @@ declare var $: any ;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements AfterViewInit {
+export class AppComponent implements OnInit, AfterViewInit {
   title = 'ProjectO';
 
   constructor(private router: Router, private commonService: CommonService){}
     
+  ngOnInit() {
+    AOS.init({
+      once: false,
+      mirror: true,
+      duration: 1300,
+      offset: 100
+    });
+  }
 
   ngAfterViewInit() {
     $('.ui.dropdown')

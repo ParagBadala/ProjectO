@@ -1,10 +1,8 @@
-<div class="_wrapper">
+<div class="_wrapper" #target>
   <div class="ui stackable grid">
-
     <div class="_openCalBtn">
-      <h2 (click)="toggleCal()"> Enquire Now</h2>
+      <h2 (click)="toggleCal(target)"> Enquire Now</h2>
     </div>
-
     <div class="computer tablet only row _main" style="margin-bottom: 0; padding-bottom: 0;" *ngIf="!showCalculator">
       <div class="sixteen wide column _coverImg">
         <!-- <img src="./assets/cover.jpg"> -->
@@ -201,7 +199,7 @@
           </div>
           <div class="ui row grid _fieldItem _orderbtnfield">
             <div class="eight wide column">
-              <button class="ui yellow huge fluid button"><span class="_orderbtn"><strong>ORDER
+              <button class="ui yellow huge fluid button" (click)="proceedForInfo()"><span class="_orderbtn"><strong>ORDER
                     NOW</strong></span></button>
             </div>
           </div>
@@ -350,12 +348,8 @@
             </div>
           </div>
           <div class="ui row grid _fieldItem _orderbtnfield">
-            <div class="eight wide computer tablet only column">
-              <button class="ui yellow huge fluid button"><span class="_orderbtn"><strong>ORDER
-                    NOW</strong></span></button>
-            </div>
             <div class="fifteen wide mobile only column">
-              <button class="ui yellow huge fluid button"><span class="_orderbtn"><strong>ORDER
+              <button class="ui yellow huge fluid button" (click)="proceedForInfo()"><span class="_orderbtn"><strong>ORDER
                     NOW</strong></span></button>
             </div>
           </div>
@@ -370,24 +364,24 @@
         <div class="ui equal width stackable grid">
           <div class="row ">
             <div class="center aligned column _why_choose_item">
-              <div class="_why_choose_img _experts"></div>
-              <div class="ui left aligned column grid">
+              <div class="_why_choose_img _experts" data-aos="zoom-in"></div>
+              <div class="ui left aligned column grid" data-aos="fade-right">
                 <strong class="_why_choose_item_title">The Best Academic Experts</strong>
                 <p>We hire qualified writers, researchers and editors to ensure that each paper is plagiarism-free and
                   delivered on-time.</p>
               </div>
             </div>
             <div class="center aligned column _why_choose_item">
-              <div class="_why_choose_img _fair"></div>
-              <div class="ui left aligned column grid">
+              <div class="_why_choose_img _fair" data-aos="zoom-in"></div>
+              <div class="ui left aligned column grid" data-aos="fade-right">
                 <strong class="_why_choose_item_title">Fair Priced Ordering System</strong>
                 <p>Our company is focused on keeping the prices as low as possible while maintaining the highest quality
                   standards.</p>
               </div>
             </div>
             <div class="center aligned column _why_choose_item">
-              <div class="_why_choose_img _safe"></div>
-              <div class="ui left aligned column grid">
+              <div class="_why_choose_img _safe" data-aos="zoom-in"></div>
+              <div class="ui left aligned column grid" data-aos="fade-right">
                 <strong class="_why_choose_item_title">Completely Safe and Secure</strong>
                 <p>Your personal information is safely encrypted. Purchases are made through authority payment systems.
                 </p>
@@ -412,10 +406,10 @@
             </div>
           </div>
           <div class="ui row grid">
-            <div class="eight wide column _we_help_text">
-              <img src="./assets/help_student2.jpg" />
+            <div class="eight wide column _we_help_text" data-aos="zoom-in">
+              <img src="./assets/help_student6.jpg" />
             </div>
-            <div class="eight wide column _we_help_text">
+            <div class="eight wide column _we_help_text" data-aos="fade-left">
               <p>You are a student and you have no time. Indeed, time is a limited and valuable resource and there are
                 so many things you won’t find a better occasion to do. We walked in those shoes, too, and that’s why UK
                 Writings was launched. We are those hours lacking so badly in your schedule.</p>
@@ -446,7 +440,7 @@
                   <a class="_text_link" href="#" rel="nofollow">See reviews</a></p>
               </div>
             </div> -->
-            <div class="column">
+            <div class="column" data-aos="zoom-in">
               <ngx-slick-carousel class="carousel" [config]="slideConfig">
                 <div ngxSlickItem *ngFor="let product of [0,1,2,3,4,5,6,7,8];" class="slide">
                   <div class="_customers_testimonials_item">
@@ -498,7 +492,7 @@
         <div class="ui stackable grid">
           <div class="row">
             <div class="center aligned eleven wide column">
-              <div class="best_essay_content">
+              <div class="best_essay_content" data-aos="fade-left">
                 <span>LOOKING FOR THE BEST ESSAY HELP IN UK?
                   <img class="_flag"
                     src="./assets/flag-593cb6f825c927aa23a41f733c078b9043db3c2961eedb448021fbeeeedf8757.svg" />
@@ -709,7 +703,7 @@
     <div class="ui container">
       <div class="ui row grid _info_block">
         <div class="eleven wide computer sixteen wide mobile sixteen wide tablet column _info_content">
-          <h1>The Best Essay Writing Service in the India</h1>
+          <h1 data-aos="fade-right">The Best Essay Writing Service in the India</h1>
           <p>We created a dynamic and flexible system that allows students from all over the India and beyond to find an
             expert to do their tiresome writing assignments. The writers in our team are certified professionals,
             each holding a degree in one or more of the subjects listed in the order form. We cooperate with former
@@ -721,11 +715,11 @@
           <p>With us, you get effective and timely help and win the twin-advantage of being excellent in both academic
             and personal life.</p>
           <div class="ui row grid">
-            <div class="two wide computer three wide mobile two wide tablet column">
+            <div class="two wide computer three wide mobile two wide tablet column" data-aos="fade-right">
               <img src="./assets/folder_img-450fad152152102d018c757f9f90fb95ed5302932e7bcd27218d3df947d5e1e4.svg" />
             </div>
             <div class="fourteen wide computer thirteen wide mobile fourteen wide tablet column">
-              <h2 class="title_img img_folder">The Types of Papers and<br>
+              <h2 class="title_img img_folder" data-aos="fade-left">The Types of Papers and<br>
                 Subjects We Cover</h2>
             </div>
           </div>
@@ -733,7 +727,7 @@
             online essay help with something not listed here. Remember, thoughts and imagination are the only real
             limits to one’s possibilities:</p>
           <div class="ui centered row stackable grid _list_wrapper">
-            <div class="seven wide column">
+            <div class="seven wide column" data-aos="fade-right">
               <div class="ui relaxed list _item_list">
                 <div class="item _custom_item">
                   <a href="#" title="English essay help">English Language</a>
@@ -767,7 +761,7 @@
                 </div>
               </div>
             </div>
-            <div class="seven wide column">
+            <div class="seven wide column" data-aos="fade-left">
               <div class="ui relaxed list _item_list">
                 <div class="item _custom_item">
                   <a href="#" title="nursing essay help">Medicine and Nursing</a>
@@ -848,11 +842,11 @@
           <p>Personalisation is another word for what we do. All papers are written from scratch, there are no
             templates and we regularly update our library to ensure a unique text every time.</p>
           <div class="ui row grid">
-            <div class="two wide computer three wide mobile two wide tablet column">
+            <div class="two wide computer three wide mobile two wide tablet column" data-aos="fade-right">
               <img src="./assets/writer_img-5d7f84a5acdbf919e1fc599b9e0782d06c840e6278d3ecd4091bf7b9e25ee271.svg" />
             </div>
             <div class="fourteen wide computer thirteen wide mobile thirteen wide tablet column">
-              <h2 class="title_img img_folder">Meet Our Writers</h2>
+              <h2 class="title_img img_folder" data-aos="fade-left">Meet Our Writers</h2>
             </div>
           </div>
           <p>Time to meet the people behind the indian Writings logo! Our writers are the engine running our system and
@@ -867,11 +861,11 @@
             beyond.
             Well, you must have already checked the customers’ reviews, have you not?</p>
           <div class="ui row grid">
-            <div class="two wide computer three wide mobile two wide tablet column">
+            <div class="two wide computer three wide mobile two wide tablet column" data-aos="fade-right">
               <img
                 src="./assets/support_img-0883987a39de18e98b3e6eba4bc4ef08bb85d28d7fccd68d4c9f7083b2524603.svg" />
             </div>
-            <div class="fourteen wide computer thirteen wide mobile fourteen wide tablet column">
+            <div class="fourteen wide computer thirteen wide mobile fourteen wide tablet column" data-aos="fade-left">
               <h2 class="title_img img_folder">Continuous Support – We <br>Are
                 Here When You Need Us!</h2>
             </div>
@@ -990,3 +984,70 @@
 
   </div>
 </div>
+
+<!--Info Modal-->
+<div id="infoModal" class="ui long test modal _completeOrder">
+  <i class="close icon"></i>
+  <div class="header _infoModalHeader">
+    ORDER NOW
+  </div>
+    <div class="scrolling description content">
+      <form class="ui form _infoForm">
+        <div class="ui dividing header"></div>
+        <h3 class="_infoSubheading">Personal Information</h3>
+        <div class="field">
+          <div class="two fields">
+            <div class="field _floatleft _infoModalRow">
+              <label class="_pd-top">First Name<span><sup>*</sup></span></label>
+              <input type="text" [(ngModel)]="info.firstName" name="shipping[first-name]" placeholder="Enter your first name" autocomplete="off">
+            </div>
+            <div class="field _floatright _infoModalRow">
+              <label>Last Name<span><sup>*</sup></span></label>
+              <input type="text" [(ngModel)]="info.lastName" name="shipping[last-name]" placeholder="Enter your last name" autocomplete="off">
+            </div>
+          </div>
+        </div>
+        <div class="field">
+          <div class="two fields">
+            <div class="field _floatleft _infoModalRow">
+              <label>Phone No.<span><sup>*</sup></span></label>
+              <input type="text" [(ngModel)]="info.phoneNo" name="shipping[phone-no]" placeholder="Enter your phone no." autocomplete="off">
+            </div>
+            <div class="field _floatright _infoModalRow">
+              <label>Email<span><sup>*</sup></span></label>
+              <input type="text" [(ngModel)]="info.email" name="shipping[email]" placeholder="Enter your email" autocomplete="off">
+            </div>
+          </div>
+        </div>
+        <div class="field _infoModalRow">
+              <label>Comments<span><sup>*</sup></span></label>
+              <textarea rows="3" [(ngModel)]="info.comment" name="shipping[comments]" placeholder="Enter your comments" autocomplete="off"></textarea>
+        </div>
+      </form>
+  </div>
+  <div class="actions">
+    <div class="ui button _placeOrderBtn" (click)="placeOrder()" disabled="!isOrderDetailFilled()">Place Order</div>
+  </div>
+</div>
+
+<!--Confirmation Modal-->
+<div id="confirmationModal" class="ui small modal _confirmationOrder">
+  <i class="close icon"></i>
+  <div class="header _infoModalHeader">
+    Confirmation
+  </div>
+    <div class="image content">
+      <img src="./assets/success_tick" class="image" style="width: 50px; height: 50px;" />
+      <div class="description" style="padding-top: 15px;">
+      <span>Order Placed Successfully.</span>
+      <span>Meritmates Team will contact at the earliest.</span>
+    </div>
+  </div>
+</div>
+
+  <!-- <div class="ui inverted dimmer" [ngClass]="{'active': true}">
+    <div class="ui loader"></div>
+  </div> -->
+
+
+
